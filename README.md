@@ -9,9 +9,9 @@ These platforms unlock incredible productivity and compounding value with every 
 an always-on runtime and known developer workflow for engineers to collaborate on. This has largely been 
 difficult to achieve outside of organisations. The micro network looks to solve this problem.
 
-![Architecture](arch.jpg)
+![Architecture](images/arch.jpg)
 
-![Architecture](arch2.jpg)
+![Architecture](images/arch2.jpg)
 
 ## Release
 
