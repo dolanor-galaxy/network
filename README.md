@@ -13,6 +13,13 @@ difficult to achieve outside of organisations. The micro network looks to solve 
 
 ![Architecture](images/arch2.jpg)
 
+### Glossary of Terms
+
+- **Backbone** - is the main network itself
+- **Service** - is a process which runs in the network
+- **Super Node** - is a host which runs the *backbone* of the network
+- **Peer Node** - is a host which runs *services* in the network
+
 ## Release
 
 Coming soon
