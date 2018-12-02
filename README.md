@@ -35,6 +35,8 @@ architecture pattern used by Google, Netflix, Uber and others which we're bringi
 
 ![Architecture](images/arch3.png)
 
+Developers contribute services to the network and build on each others work.
+
 ## Economics
 
 Building such an architecture is good in theory but in practice requires network effects to drive its use, growth and ability to thrive. 
