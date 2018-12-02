@@ -12,8 +12,8 @@ difficult to achieve outside of organisations. The micro network looks to solve 
 ## Architecture
 
 The network is a global p2p network based on existing open source technology developed by micro and others. 
-It provides the core requirements for collaborative service development at scale. This includes a communication 
-layer, service discovery system, secure governance, service runtime and resource exchange model.
+It provides the core requirements for collaborative service development at scale. This includes a common 
+communication protocol, service discovery system, secure governance, service runtime and resource exchange model.
 
 ### High Level
 
