@@ -15,13 +15,13 @@ The network is a global p2p network based on existing open source technology dev
 It provides the core requirements for collaborative service development at scale. This includes a communication 
 layer, service discovery system, secure governance, service runtime and resource exchange model.
 
-## High Level
+### High Level
 
 At the high level we're using the open source micro toolkit as the foundation for the network.
 
 ![Architecture](images/arch.jpg)
 
-## Features
+### Features
 
 The network features decentralised communication network which provides discovery, governance and a runtime.
 
