@@ -29,7 +29,7 @@ This is where [Token Economics](https://en.wikipedia.org/wiki/Token_economy) pla
 of the network and/or services on the network should be rewarded accordingly. Our goal is to build a native tokenized transaction 
 system into the network to provide this reware system and exchange of token for service mechanism.
 
-### Glossary of Terms
+## Glossary of Terms
 
 - **Network** - is the entire system for communication and coordination
 - **Backbone** - is the core public high bandwidth main network itself
