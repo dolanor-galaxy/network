@@ -27,6 +27,14 @@ The network features decentralised communication network which provides discover
 
 ![Architecture](images/arch2.jpg)
 
+### Services
+
+The network provides a micro service runtime. Each service can be used as a building block for the next. 
+This layering allows the creation of unique services on a foundation of hundreds of others. This is the microservice 
+architecture pattern used by Google, Netflix, Uber and others which we're bringing to the masses.
+
+![Architecture](images/arch3.jpg)
+
 ## Economics
 
 Building such an architecture is good in theory but in practice requires network effects to drive its use, growth and ability to thrive. 
