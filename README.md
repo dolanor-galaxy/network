@@ -29,6 +29,8 @@ This is where [Token Economics](https://en.wikipedia.org/wiki/Token_economy) pla
 of the network and/or services on the network should be rewarded accordingly. Our goal is to build a native tokenized transaction 
 system into the network to provide this resource usage model via exchange of tokens for services.
 
+Here's a good explanation of [Token Economics](https://www.investinblockchain.com/token-economics/).
+
 ## Glossary of Terms
 
 - **Network** - is the entire system for communication and coordination
