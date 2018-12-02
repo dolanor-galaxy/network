@@ -38,7 +38,7 @@ Here's a good explanation of [Token Economics](https://www.investinblockchain.co
 - **Super Node** - is a host which runs the *backbone* of the network
 - **Peer Node** - is a host which runs *services* in the network
 - **Service** - is a process which runs in the network and provides some utility
-- **Token** - is a cryptographically secure hash provided in exchange for use of a service
+- **Token** - is an economic incentive used in exchange for the use of a service
 
 ## Release
 
