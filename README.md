@@ -46,4 +46,4 @@ Coming soon
 
 ## Contribute
 
-Join the [slack](https://micro.mu/slack/) to discuss
+Join the [slack](https://micro.mu/slack/) or [reddit](https://www.reddit.com/r/micronet/) community to discuss
