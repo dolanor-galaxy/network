@@ -1,6 +1,6 @@
 # Network
 
-The micro network is a global p2p network for micro services.
+The micro network is a globally distributed system for micro service development.
 
 ## Overview
 
@@ -11,7 +11,7 @@ difficult to achieve outside of organisations. The micro network looks to solve 
 
 ## Architecture
 
-The network is a global p2p network based on existing open source technology developed by micro and others. 
+The network is a global network based on existing open source technology developed by micro and others. 
 It provides the core requirements for collaborative service development at scale. This includes a common 
 communication protocol, service discovery system, secure governance, service runtime and resource exchange model.
 
