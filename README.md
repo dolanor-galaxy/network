@@ -1,13 +1,15 @@
 # Network
 
-The micro network is a globally distributed network for micro service development.
+The micro network is a globally distributed network for micro services.
 
 ## Overview
 
 The power of collaborative development has mostly been restricted to trusted environments within organisations. 
 These platforms unlock incredible productivity and compounding value with every new service added. They provide 
 an always-on runtime and known developer workflow for engineers to collaborate on. This has largely been 
-difficult to achieve outside of organisations. The micro network looks to solve this problem.
+difficult to achieve outside of organisations.
+
+The micro network looks to solve this problem using a shared global network for micro services.
 
 ## Architecture
 
