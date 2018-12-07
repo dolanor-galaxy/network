@@ -19,9 +19,12 @@ communication protocol, service discovery system, secure governance, service run
 
 ### High Level
 
-At the high level we're using the open source micro toolkit as the foundation for an overlay network on the internet and a platform for microservices.
+At the high level we're using the open source micro toolkit as the foundation for an overlay network on the internet and a platform for microservices. 
+Each user runs a local node which provides access to the network, a runtime for running services, a local http api gateway and web browser.
 
 ![Architecture](images/arch.jpg)
+
+In future this design will include automatic data synchronization and backup for long term storage.
 
 ### Features
 
