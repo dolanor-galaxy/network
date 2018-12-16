@@ -18,6 +18,7 @@ The micro network looks to solve this problem using a shared global network for 
   * [Evolution](#evolution)
   * [Runtime](#runtime)
   * [Governance](#governance)
+  * [Network](#network)
 - [Economics](#economics)
 - [Glossary](#glossary-of-terms)
 
@@ -117,6 +118,36 @@ it will be a service running on the network itself. It will also be an open sour
 contribute to.
 
 Like any other service, this system will be evolutionary.
+
+### Network
+
+In the case of micro, the "network" is an overloaded term both referring to the underlying system made up of nodes or peers which 
+provide compute and also the overlaying communication system used for services to discover and communicate with each other.
+
+In this case we'll speak to the service layer network. The micro network provided to developers consists of four pieces; 
+registry, transport, broker and client/server. These components can be found in [Go Micro](https://github.com/micro/go-micro) 
+for more info.
+
+The registry provides a service discovery mechanism for applications in the network. Think of this as DNS but in a way that's 
+self describing and built for transient systems. Our assumption is that developers should not have to leave the network 
+to understand what a service is built for and that any number of prototypes with high percentage failure rates will exist on the 
+network itself. Because of this we need a system that describes services in their entirety and expiration of dead nodes to 
+prevent various failure modes.
+
+The transport provides a common synchronous communication system. Ideally this is abstracted away so the developer does not 
+have to worry about what the protocol is. In our mind most frameworks and libraries provide rich http support with prominent 
+ecosystems. We want to enable this while providing a highly efficient binary protocol beneath the covers. 
+
+The broker is an asynchronous communication system. It allows for publishing messages to an unknown number of interested parties. 
+In some cases there may be no subscribers in which case we need to account for future interest and potential short term storage 
+and access. It is critical that event based programming be a core tenant of the network. This likely also promotes a functional 
+programming model which will be native to the network.
+
+The client/server abstracts away the registry, transport and broker so that from a development standpoint all that remains is a 
+focus on the domain itself. Ideally inter-service communication should be thought more as high level domain driven design and 
+later on flow based programming.
+
+The network encapsulates low level details of distributed system communication and allows the developer to focus on whats important.
 
 ## Economics
 
