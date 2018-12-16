@@ -42,7 +42,7 @@ In future this design will include automatic data synchronization and backup for
 ### Features
 
 The network features a p2p compute runtime with a high bandwidth backbone. The network itself provides discovery, governance and a runtime. 
-The design is such that what resource you put in, you get back distributed across the network. It's global and shared by default. You can 
+The design is such that whatever resource you put in, you get back distributed across the network. It's global and shared by default. You can 
 buy more resource using tokens but you'll also get tokens for any requests made to your services.
 
 ![Architecture](images/arch2.jpg)
