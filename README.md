@@ -15,6 +15,7 @@ The micro network looks to solve this problem using a shared global network for 
   * [Features](#features)
   * [Services](#services)
   * [Identity](#identity)
+  * [Evolution](#evolution)
 - [Economics](#economics)
 - [Glossary](#glossary-of-terms)
 
@@ -69,6 +70,18 @@ The identity system will likely be as follows
 - Layer 0 - the node connected to the network
 - Layer 1 - the app providing a service to the network
 - Layer 2 - the reputation scoring based on node + service
+
+### Evolution
+
+No system in nature is static and so we should not expect any technical infrastructure or software to remain static. We believe 
+evolutionary software is far superior to anything else and this in principle needs to be promoted by the underlying runtime 
+on which it rains. The micro network will be an evolutionary system which requires all services run on it to also behave in such 
+a manner.
+
+Software will be downloaded from its public source form. It will then be built and run, all within the same location. Updates to 
+the source will result in periodic generation of new versions of a running service. Previous instantiations will remain for 
+their lifetime or until they die for any unexpectected reason. This is evolution and we believe evolution is the most powerful 
+method for software delivery.
 
 ## Economics
 
