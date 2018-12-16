@@ -46,6 +46,23 @@ architecture pattern used by Google, Netflix, Uber and others which we're bringi
 
 Developers contribute services to the network and build on each others work.
 
+### Identity
+
+Most networks being bootstrapped require some form of identity system. Many of these start with base level asymmetric cryptographic 
+using public/private key pairs. While we'll look to use these we believe this system is not enough. Anyone can participate in the 
+network and anyone can generate a public/private key pair. Bad actors will likely cycle these and DDOS the network.
+
+What we propose is a two layer identity system, with layer 1 as the public/private key pair (potentially using SPIFFE) and layer 2 
+as a reputation based scoring system which over time solidifies your reputation and trusted identity in the network. The longer 
+you exist in the network and participate the more likely it is we can identify you as a trusted party. New participants will be 
+provided some base level access but must either pay to participate or stay on the network long enough to get further access.
+
+The identity system will likely be as follows
+
+- Layer 0 - the node connected to the network
+- Layer 1 - the app providing a service to the network
+- Layer 2 - the reputation scoring based on node + service
+
 ## Economics
 
 Building such an architecture is good in theory but in practice requires network effects to drive its use, growth and ability to thrive. 
