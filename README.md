@@ -17,6 +17,7 @@ The micro network looks to solve this problem using a shared global network for 
   * [Identity](#identity)
   * [Evolution](#evolution)
   * [Runtime](#runtime)
+  * [Governance](#governance)
 - [Economics](#economics)
 - [Glossary](#glossary-of-terms)
 
@@ -98,6 +99,24 @@ to run a copy of whatever already exists in the network but it also creates a le
 Beyond this, our expectation is to standardise on wasm (web assembly) which lets us provide a universal runtime for any 
 language which supports wasm compilation. We'll likely provide rudimentary language detection early on to auto-compile wasm 
 binaries. Eliminating another intermediate step for developers to ship software.
+
+### Governance
+
+While we can provide an evolutionary network and a runtime which supports such a system, it is very unlikely that such a system 
+can be sustained standalone. Platforms are managed by operators and every system in nature has some form of governance. The 
+micro network will be no different.
+
+Having learned from years of managing platforms it is abundantly clear that we do not want human involvement to manage something 
+on the order of 1B nodes. With likely 10x more services. Even if the task of management is distributed to node owners (which 
+defeats the purpose of our goals) it would be impossible to perform such coordination at scale. Because of this the system 
+we develop will have to be self governing.
+
+The micro network will include self governance driven through automation. No humans will be involved in commanding the placement 
+of services or have the ability to shut them down. The governance mechanism for all services and the network itself will be in code, 
+it will be a service running on the network itself. It will also be an open source service anyone can see the code for and 
+contribute to.
+
+Like any other service, this system will be evolutionary.
 
 ## Economics
 
