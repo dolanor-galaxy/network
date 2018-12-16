@@ -11,6 +11,13 @@ difficult to achieve outside of organisations.
 
 The micro network looks to solve this problem using a shared global network for micro services.
 
+- [Architecture](#architecture)
+ * [Features](#features)
+ * [Services](#services)
+ * [Identity](#identity)
+- [Economics](#economics)
+- [Glossary](#glossary-of-terms)
+
 ## Architecture
 
 The network is a globally distributed network based on existing open source technology developed by micro and others. 
