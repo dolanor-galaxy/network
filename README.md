@@ -55,7 +55,7 @@ Developers contribute services to the network and build on each others work.
 
 ### Identity
 
-Most networks being bootstrapped require some form of identity system. Many of these start with base level asymmetric cryptographic 
+Most networks being bootstrapped require some form of identity system. Many of these start with base level asymmetric cryptography 
 using public/private key pairs. While we'll look to use these we believe this system is not enough. Anyone can participate in the 
 network and anyone can generate a public/private key pair. Bad actors will likely cycle these and DDOS the network.
 
