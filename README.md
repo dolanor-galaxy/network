@@ -75,7 +75,7 @@ The identity system will likely be as follows
 
 No system in nature is static and so we should not expect any technical infrastructure or software to remain static. We believe 
 evolutionary software is far superior to anything else and this in principle needs to be promoted by the underlying runtime 
-on which it rains. The micro network will be an evolutionary system which requires all services run on it to also behave in such 
+on which it runs. The micro network will be an evolutionary system which requires all services run on it to also behave in such 
 a manner.
 
 Software will be downloaded from its public source form. It will then be built and run, all within the same location. Updates to 
