@@ -11,6 +11,8 @@ difficult to achieve outside of organisations.
 
 The micro network looks to solve this problem using a shared global network for micro services.
 
+## Contents
+
 - [Architecture](#architecture)
   * [Features](#features)
   * [Services](#services)
