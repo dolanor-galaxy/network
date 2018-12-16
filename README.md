@@ -16,6 +16,7 @@ The micro network looks to solve this problem using a shared global network for 
   * [Services](#services)
   * [Identity](#identity)
   * [Evolution](#evolution)
+  * [Runtime](#runtime)
 - [Economics](#economics)
 - [Glossary](#glossary-of-terms)
 
@@ -82,6 +83,21 @@ Software will be downloaded from its public source form. It will then be built a
 the source will result in periodic generation of new versions of a running service. Previous instantiations will remain for 
 their lifetime or until they die for any unexpectected reason. This is evolution and we believe evolution is the most powerful 
 method for software delivery.
+
+### Runtime
+
+While our primary focus is to provide a globally distributed network for micro services this can't be fully realised without a 
+method of deploying software. It's important that in the context of creating evolutionary systems we provide a runtime which 
+supports this method of development. The micro runtime is a process management system tightly coupled to the network itself 
+with the ability to run applications from source code.
+
+Developers no longer need be concerned with packaging and shipping their code. If it exists in a public repository it can be 
+deployed to the micro network. We will primarily look to support Git via GitHub as the source of truth. This allows anyone 
+to run a copy of whatever already exists in the network but it also creates a level of trust around completely **Open Source Services**.
+
+Beyond this, our expectation is to standardise on wasm (web assembly) which lets us provide a universal runtime for any 
+language which supports wasm compilation. We'll likely provide rudimentary language detection early on to auto-compile wasm 
+binaries. Eliminating another intermediate step for developers to ship software.
 
 ## Economics
 
