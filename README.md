@@ -12,9 +12,9 @@ difficult to achieve outside of organisations.
 The micro network looks to solve this problem using a shared global network for micro services.
 
 - [Architecture](#architecture)
- * [Features](#features)
- * [Services](#services)
- * [Identity](#identity)
+  * [Features](#features)
+  * [Services](#services)
+  * [Identity](#identity)
 - [Economics](#economics)
 - [Glossary](#glossary-of-terms)
 
