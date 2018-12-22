@@ -1,6 +1,6 @@
 # Network
 
-The micro network is a globally distributed network for micro services.
+The micro network is a **open collaborative network for open source services**.
 
 ## Overview
 
@@ -21,6 +21,8 @@ The micro network looks to solve this problem using a shared global network for 
   * [Runtime](#runtime)
   * [Governance](#governance)
   * [Network](#network)
+  * [Collaboration](#collaboration)
+  * [Value Exchange](#value-exchange)
 - [Economics](#economics)
 - [Glossary](#glossary-of-terms)
 
@@ -150,6 +152,45 @@ focus on the domain itself. Ideally inter-service communication should be though
 later on flow based programming.
 
 The network encapsulates low level details of distributed system communication and allows the developer to focus on whats important.
+
+### Collaboration
+
+It is not enough to provide an environment for running applications. Many platforms already exist for this function. Individuals 
+can use cloud hosting to do this. Networks are being built to run decentralized applications (dApps). This is all good and well 
+but at the base level is just compute, access to resource.
+
+What's more useful is a focus on **collaboration**. Organizations create a single cloud hosting account as a trusted environment 
+for their engineers and teams to build software together which then becomes a unified product offering. They do not have to worry 
+about whether or not they can trust other teams or engineers using it. They do not have to worry about services disappearing or 
+even building everything from the ground up. Teams working independently produce services which can be access others teams. This 
+becomes the basis for new applications, the foundation which they no longer have to rebuild. The velocity of their development 
+increases with every new service added. New products can be built at rapid pace, and the compounding value of this in the long 
+term has been demonstrated by Amazon, Facebook, Google, Uber, and many more.
+
+Collaboration is the key. This must be our focus and is our focus. Because we focus on microservice development. We provide 
+the building blocks in a network and push forward the idea of collaborative software development so that we as individuals 
+can collectively build towards what does not exist outside of organizations. This is an opportunity to build something at 
+the scale of Google and others in a coordinated effort without any central intermediary or the need to work at a company.
+
+Collaboration will be our central focus, not compute, not storage, not singular applications, but instead multi application 
+services built collectively by the network. 
+
+### Value Exchange
+
+What do we mean by value exchange? It is not enough to provide an environment for collaborative development. We need some way of 
+rewarding those who are participants in the network and provide resources or services to the network itself.
+
+Value exchange is basically the idea of exchanging some *thing* in return for some *value*. In our case we will exchange **resources** 
+for the use of the network **runtime** or **services**. Resources can either be compute offered to the network via the runtime, 
+the ability to actually run services, or some form of monetary payment. Resources will be given a quantified value in the network 
+and abstracted away into a native exchange method using an api **token**.
+
+Api tokens will behave as a utility token, they will have a lifetime and it will be possible to generate them if a user participates 
+in the network or makes monetary payment to acquire them. It will be possible to refresh expired tokens.
+
+Our expectation is that the token becomes the native exchange method for resource in the micro network but the value of a token 
+will be self adjusting based on the size of the network. The value of the network is based on the number of participants, resources 
+and services, not the token itself.
 
 ## Economics
 
