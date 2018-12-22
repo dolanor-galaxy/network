@@ -172,7 +172,7 @@ the building blocks in a network and push forward the idea of collaborative soft
 can collectively build towards what does not exist outside of organizations. This is an opportunity to build something at 
 the scale of Google and others in a coordinated effort without any central intermediary or the need to work at a company.
 
-Collaboration will be our central focus, not compute, not storage, not singular applications, but instead multi application 
+Collaboration will be our central focus, not compute, not storage, nor singular applications, but instead multi application 
 services built collectively by the network. 
 
 ### Value Exchange
