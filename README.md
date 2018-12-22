@@ -162,7 +162,7 @@ but at the base level is just compute, access to resource.
 What's more useful is a focus on **collaboration**. Organizations create a single cloud hosting account as a trusted environment 
 for their engineers and teams to build software together which then becomes a unified product offering. They do not have to worry 
 about whether or not they can trust other teams or engineers using it. They do not have to worry about services disappearing or 
-even building everything from the ground up. Teams working independently produce services which can be access others teams. This 
+even building everything from the ground up. Teams working independently produce services which can be accessed by others teams. This 
 becomes the basis for new applications, the foundation which they no longer have to rebuild. The velocity of their development 
 increases with every new service added. New products can be built at rapid pace, and the compounding value of this in the long 
 term has been demonstrated by Amazon, Facebook, Google, Uber, and many more.
