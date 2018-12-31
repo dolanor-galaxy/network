@@ -1,6 +1,6 @@
 # Network
 
-The micro network is a **open collaborative network for open source services**.
+The micro network is an **open collaborative network for open source services**.
 
 ## Overview
 
